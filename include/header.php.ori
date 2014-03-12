@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Hiper Compara</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css" media="screen">
+<!-- [if IE]><link href="css/IE.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
+<script type="text/javascript" language="JavaScript" src="js/jquery-1.10.2.js" ></script>
+<script type="text/javascript" language="JavaScript" src="js/jquery-1.10.2.min.js" ></script>
+<script type="text/javascript" language="JavaScript" src="js/funciones.js" ></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function(){
+    	jQuery(".editBox").fancybox({
+				'width'                 : '60%',
+				'height'                : '85%',
+				'autoScale'           : false,
+				'transitionIn'        : 'slow',
+				'transitionOut'     :'slow',
+				'type'                   : 'iframe',
+				'onClosed'          : function(){
+					location.reload();
+				}
+		});
+	});
+</script>
+
+
+</head>
+<body>
+<div id="logo"><img src="image/logo_hipercompara.png" title="Logo" alt="Logo" /></div>

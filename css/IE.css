@@ -1,0 +1,277 @@
+@CHARSET "ISO-8859-1";
+body {
+	font-family:"Helvetica", Helvetica, serif;
+}
+
+a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+input{
+		border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+
+	border:1px solid #487ff7;
+	font-size:12px !important;
+}
+
+#about{
+	position: absolute; bottom: 0;
+	width:100%
+	
+}
+
+#logo{
+	width:100%;
+	text-align:left;
+}
+
+#adsense{
+	float:right;
+	margin-top: -90px;
+	margin-right: 10px;
+}
+
+#linea{
+	position:relative;
+	left:1%;
+	width:98%;
+	height:45px;
+	background:#c8deff;
+	border-radius:5px; 
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */ 
+	z-index: -1;
+}
+
+#linea h1{
+	font-size:25px;
+	position:relative;
+	left:2%;
+	top:20%;
+	width:98%;
+	color:rgba(0,0,0,0.86);
+}
+
+#login{
+	width:100%;
+	text-align:center;
+}
+
+#login table{
+	text-align:center;
+	position:relative;
+	left:40%;
+}
+
+#cuerpo{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+
+#menuIzquierda{
+	width: 19%;
+	position: relative;
+	left: 1%;
+	float:left;
+	margin-top: 1%;
+}
+#menuIzquierda a{
+	list-style:none;
+  	padding:0;
+  	margin:0;
+  	height:16px;
+}
+
+#menuIzquierda ul{
+	list-style:none;
+  	padding:0;
+  	width: 95%;
+  	margin:0;
+}
+
+#menuIzquierda li{
+	border-bottom:1px solid #fff;
+}
+
+#menuIzquierda ul li, #menuIzquierda li:last-child{border:none;margin-bottom:1px;}
+
+#menuIzquierda a:hover{
+	color:000;
+} 
+
+.itemMenuIzquierda{
+	background:#487ff7;
+	height:24px !important;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */
+	margin-bottom:1px;
+	position:relative;
+	left:2%;
+	top:20%;
+	width:98%;
+	/*color:#ffffff;*/
+	font-weight:bold;
+	padding-top:4% !important;
+}
+	
+.subMenuIzquierda{
+	background:#c8deff;
+	position: relative;
+	left: 4%;
+	border-radius:5px; 
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */
+}
+.subMenuIzquierda li{
+	height: 21px;
+	border-radius:5px; 
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */
+	/*color:#ffffff;*/
+}
+		
+#menuDerecha{
+	width: 19%;
+	position: relative;
+	left: 1%;
+	float:left;
+	margin-top: 1%;
+}
+
+#menuDerecha ul{
+	list-style:none;
+  	padding:0;
+  	margin-left:5%;
+  	width: 95%;
+  	margin-top:1%;
+}
+
+.itemMenuDerecha{
+	background:#135ca7;
+	height:40px;
+	border-radius:5px; 
+	-moz-border-radius:5px; /* Firefox */ 
+	-webkit-border-radius:5px; /* Safari y Chrome */
+	margin-bottom:1px;
+}
+
+.itemMenuDerecha span{
+	position:relative;
+	left:2%;
+	top:20%;
+	width:98%;
+	color:#ffffff;
+}
+
+#contenido{
+	position:relative;
+	left:1%;
+	/*width:78.2%;*/
+	width:59.2%;
+	border:1px solid #487ff7;
+	float:left;
+	margin-top:1%;
+}
+
+#validacion{
+	clear: both;
+	margin-top:20%;
+}
+
+#products{
+	text-align:center;
+	width:100%;
+}
+table { 
+	border-collapse:collapse 
+}
+table td,
+table th{
+	font-family:"Arial Verdana", Verdana, serif;
+}
+
+.barramenu{
+	width:97%;
+	margin-top: 2px;
+}
+
+.boton_editar{
+	background: transparent;
+	background-image: url("../image/editar.png");
+	border: none;
+	background-repeat:no-repeat;
+	height:30px;
+	width:30px;
+}
+
+.boton_borrar{
+	background: transparent;
+	background-image: url("../image/borrar.png");
+	border: none;
+	background-repeat:no-repeat;
+	height:30px;
+	width:30px;
+}
+
+#descripcion{
+	width:90%;
+}
+
+#boton_anyadir{
+	text-align:right;
+}
+
+#boton_anyadir .boton{
+	background-image: url("../image/anyadir.png");
+	width:30px;
+	height:30px;
+}
+
+.listado-color{
+	background: #c8deff;
+}
+
+.NewPrice{
+	resize: none;
+	height:18px;
+	text-align:center;
+	padding:0;
+	margin:0;
+	width:50px;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	border:1px solid #487ff7;
+	font-size:12px !important;
+}
+#searcher
+{
+    float:right;
+    margin-right: 25px; 
+	margin-top: -33px;   
+	z-index: 1;      
+}
+
+#supermarket{
+	position:relative;
+	left:25%;
+}
+
+#supermarket tr{
+	line-height:200%;
+}
+
+#registro-supermarket{
+	position:relative;
+	left:1%;
+	text-align:center;
+	width:59.2%;
+	border:1px solid #487ff7;
+	left:20%;
+	margin-top:1%;
+}
